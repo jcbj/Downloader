@@ -95,6 +95,12 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.reloadData()
     }
 
+    func addTask() {
+        let viewController = NewTaskViewController()
+        let navController = UINavigationController(rootViewController: viewController)
+        self.presentViewController(navController, animated: true, completion: nil)
+    }
+    
     func reloadData() {
         taskList = TaskManager.shareInstance.unFinishedTask()
         self.mainTableView?.reloadData()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497D123A1C2D99430028EC34 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D12391C2D99430028EC34 /* NewTaskViewController.swift */; };
 		49DC6A3A1C2C307B009169E3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC6A391C2C307B009169E3 /* TaskManager.swift */; };
 		49FB07751C2C19BE00D0030B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB07741C2C19BE00D0030B /* AppDelegate.swift */; };
 		49FB07771C2C19BE00D0030B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB07761C2C19BE00D0030B /* FirstViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497D12391C2D99430028EC34 /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		49DC6A391C2C307B009169E3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		49FB07711C2C19BE00D0030B /* Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Downloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FB07741C2C19BE00D0030B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				49FB07821C2C19BF00D0030B /* Info.plist */,
 				49FB07881C2C1B5A00D0030B /* TestDownloader.playground */,
 				49DC6A391C2C307B009169E3 /* TaskManager.swift */,
+				497D12391C2D99430028EC34 /* NewTaskViewController.swift */,
 			);
 			path = Downloader;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FB07791C2C19BE00D0030B /* SecondViewController.swift in Sources */,
+				497D123A1C2D99430028EC34 /* NewTaskViewController.swift in Sources */,
 				49FB07751C2C19BE00D0030B /* AppDelegate.swift in Sources */,
 				49DC6A3A1C2C307B009169E3 /* TaskManager.swift in Sources */,
 				49FB07771C2C19BE00D0030B /* FirstViewController.swift in Sources */,
